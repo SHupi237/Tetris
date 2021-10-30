@@ -1,0 +1,101 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(assets/RetroGaming.ttf);
+}
+#body{
+        font-family: myFirstFont;
+        color: blue;
+        background-color: black;
+}
+.elements{
+    font-family: myFirstFont;
+    color: blue;
+}
+a{
+    font-size: 35px;
+}
+#options{
+    position: relative;
+    left: 45%;
+    float: right;
+}
+h1{
+    position: relative;
+    left: 40%;
+    font-size: 50px;
+}
+.scores{
+    font-family: myFirstFont;
+    color: blue;
+    font-size: 20px;
+}
+#divOfScores{
+    position: relative;
+    left: 34%;
+
+}
+.divTable{
+	display: table;
+	float: left;
+	margin-right: 50px;
+}
+.divTableRow {
+	display: table-row;
+}
+.divTableHeading {
+	background-color: #EEE;
+	display: table-header-group;
+}
+.divTableCell, .divTableHead {
+	border: 1px solid #999999;
+	display: table-cell;
+    padding:0;
+    width:30px ;
+    height:30px;
+}
+
+.divTableCell {
+	text-align: center;
+	line-height: 30px;
+	font-family: Arial;
+	font-weight: bold;
+}
+
+.divTableHeading {
+	background-color: #EEE;
+	display: table-header-group;
+	font-weight: bold;
+}
+.divTableFoot {
+	background-color: #EEE;
+	display: table-footer-group;
+	font-weight: bold;
+}
+.divTableBody {
+	display: table-row-group;
+}
+.red {
+    background-color: #dd2c00;
+}
+.blue {
+    background-color: #2196f3;
+}
+.yellow {
+    background-color: #fbc02d;
+}
+.upperDivs{
+    color: white;
+    border-bottom: 10px solid grey;
+    border-left:10px solid grey ;
+    border-right:10px solid grey  ;
+    width: 149px;
+    font-size: 35px;
+    position: relative;
+    left: 45%;
+    text-align: center;
+    
+}
+.fa-arrow-right{
+    width: 40px;
+    height: 40px;
+}
