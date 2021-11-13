@@ -17,6 +17,28 @@ a{
 #options{
     position: relative;
     left: 45%;
+    width: 300px;
+    height: 300px;
+}
+#arrowDiv{
+    width: 100px;
+    float: left;
+    height: 138px;
+}
+#gameOptions{
+    width: 200px;
+    height: 138px;
+    float: right;
+}
+.arrowOptions{
+    height: 56.67px;
+    width: 100px;
+}
+.games{
+    height: 46px;
+    width: 100px;
+}
+.fa-arrow-right{
     float: right;
 }
 h1{
@@ -76,12 +98,15 @@ h1{
 }
 .red {
     background-color: #dd2c00;
+    border: 1px solid #dd2c00;
 }
 .blue {
     background-color: #2196f3;
+    border: 1px solid #2196f3;
 }
 .yellow {
     background-color: #fbc02d;
+    border: 1px solid #fbc02d;
 }
 .upperDivs{
     color: white;
@@ -99,3 +124,23 @@ h1{
     width: 40px;
     height: 40px;
 }
+#logo{
+    position: relative;
+    left: 40%;
+}
+.empty{
+    background-color: black;
+}
+.oneColor{
+    background-color: pink;
+}
+#comunicateDiv{
+    font-size: 100px;
+    color: red;
+    text-align: center;
+}
+.scoreFormHidden{
+    display: none;
+}
+
+

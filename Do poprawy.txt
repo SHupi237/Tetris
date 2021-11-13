@@ -1,0 +1,3 @@
+Zmienić z zbite na usunąć
+Usunąc licznik zbitych bloków bo niepotrzebny
+Liczyć ile opadło bloczków*

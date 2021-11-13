@@ -5,13 +5,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dr. Mario</title>
-    <script src="DrMariojs.js"></script>
+    <script src="tetris.js"></script>
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body id="body">
     <div class="divTable">
         <div class="divTableBody" id="board"></div>
+    </div>
+    <a id="beatedRows">Zbite rzędy:</a><br>
+    <a id="beatedBlocks">Zbite bloki:</a>
+    <div>
+    <a id="comunicateDiv"></a>
+    </div>
+    <div>
+        <form class="scoreFormHidden">
+            <input type='text' value='Wpisz imię' name='nameOfPlayer'>
+            <input type='submit' value='Zapisz wynik do tabeli'>
+        </form>
     </div>
 </body>
 
